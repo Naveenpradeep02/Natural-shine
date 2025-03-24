@@ -216,6 +216,7 @@ nav a i {
 /* ==================== SECTION 3*/
 .section3 {
   margin-bottom: 60px;
+  color: var(--white-color);
 }
 .section3 h2 {
   text-align: center;
@@ -234,6 +235,9 @@ nav a i {
 }
 .section3-service-box img {
   width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 .service-1 {
   background-color: var(--green-color);
@@ -249,13 +253,22 @@ nav a i {
   text-align: center;
   font-weight: 800;
 }
+.btn-service {
+  background-color: var(--black-color);
+  padding: 10px 25px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: var(--green-color);
+}
 /* ==================== */
 /* ==================== section 4*/
 .list-services {
   /* background-color: var(--black-color); */
   color: var(--green-color);
   width: 100%;
-  padding: 60px 0px;
+  padding: 30px 0px;
+  text-transform: capitalize;
 }
 .section4 h2 {
   text-align: center;
@@ -473,6 +486,33 @@ nav a i {
 }
 .section9-container p {
   margin-bottom: 20px;
+}
+/* ==================== */
+/* ==================== */
+.footer-con {
+  width: 100%;
+  background-color: var(--black-color);
+  color: var(--green-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0px;
+}
+.footer-con .logo-img {
+  font-size: 32px;
+}
+.footer-con .btn-foot {
+  padding: 10px 25px;
+  background-color: var(--white-color);
+  color: var(--green-color);
+}
+.footer-con a {
+  color: var(--white-color);
+}
+.footer-con p {
+  text-align: center;
 }
 /* ==================== */
 
