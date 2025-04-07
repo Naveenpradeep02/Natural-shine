@@ -489,6 +489,39 @@ nav a i {
 }
 /* ==================== */
 /* ==================== */
+.work-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  padding-top: 70px;
+  flex-direction: column;
+}
+.work-image h2 {
+  font-size: 32px;
+  padding-bottom: 50px;
+  font-weight: 800;
+}
+.work-image .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.img-work {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border: 5px solid var(--green-color);
+}
+.img-work img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ==================== */
+/* ==================== */
 .footer-con {
   width: 100%;
   background-color: var(--black-color);
