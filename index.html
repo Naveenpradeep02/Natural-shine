@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Natural shine</title>
+    <link rel="shortcut icon" href="./img/short-icon.png" />
     <!-- css -->
     <link rel="stylesheet" href="./style.css" />
     <!-- fontAwesome -->
@@ -19,13 +20,13 @@
     <!-- header -->
     <header>
       <div class="container headerSection">
-        <div class="logo"><h2>Natural shine</h2></div>
+        <a href="#" class="logo"><img src="./img/logo-2.png" alt="" /></a>
         <nav>
           <a href="#">HOME</a>
-          <a href="#">SERVICES</a>
-          <a href="#">CLIENTS </a>
+          <a href="#service">SERVICES</a>
+          <a href="#work">WORK </a>
           <!-- <a href="#">PARTNER WITH US </a> -->
-          <a href="#"> CONTACTS </a>
+          <a href="#contact"> CONTACTS </a>
           <a href="tel:+91 9751985934"
             ><i class="fa-solid fa-phone"></i> 9751985934
           </a>
@@ -42,11 +43,27 @@
     </header>
     <div class="mobileNav">
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">CLIENTS</a></li>
+        <li>
+          <a href="#" onclick="hideMenu()">
+            <i class="fa-solid fa-house"></i> HOME</a
+          >
+        </li>
+        <li>
+          <a href="#service" onclick="hideMenu()"
+            ><i class="fa-solid fa-briefcase"></i> SERVICES</a
+          >
+        </li>
+        <li>
+          <a href="#work" onclick="hideMenu()"
+            ><i class="fa-solid fa-star"></i> WORK</a
+          >
+        </li>
         <!-- <li><a href="#">PARTNER WITH US</a></li> -->
-        <li><a href="#">CONTACTS</a></li>
+        <li>
+          <a href="#contact" onclick="hideMenu()"
+            ><i class="fa-solid fa-address-book"></i> CONTACTS</a
+          >
+        </li>
       </ul>
       <a href="tel:+91 9751985934"
         ><i class="fa-solid fa-phone"></i> 9751985934
@@ -186,43 +203,43 @@
     </div>
     <!-- cta -->
     <!-- section4 -->
-    <section class="list-services section4">
+    <section class="list-services section4" id="service">
       <h2>Dry dusting</h2>
 
       <div class="container">
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Ceiling.png" alt="" />
             <h3>Ceiling / Roof</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/walls.png" alt="" />
             <h3>walls & Corners</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Fixtures.png" alt="" />
             <h3>Fixtures</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Switches.png" alt="" />
             <h3>Switches</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Furniture.png" alt="" />
             <h3>Furniture</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Kitchen.png" alt="" />
             <h3>Kitchen</h3>
           </div>
         </div>
@@ -236,37 +253,37 @@
       <div class="container">
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Bed.png" alt="" />
             <h3>Bed</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Windows.png" alt="" />
             <h3>Windows</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Cabinets.png" alt="" />
             <h3>Cabinets</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/ChairsTables.png" alt="" />
             <h3>Chairs & Tables</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/fan.png" alt="" />
             <h3>Fans & AC</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Photo.png" alt="" />
             <h3>Photo frames</h3>
           </div>
         </div>
@@ -280,37 +297,37 @@
       <div class="container">
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Sofa.png" alt="" />
             <h3>Sofa</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Carpet.png" alt="" />
             <h3>Carpet</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/mattresses.png" alt="" />
             <h3>mattresses</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/curtains.png" alt="" />
             <h3>curtains</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Upholstery.png" alt="" />
             <h3>Upholstery</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/vents.png" alt="" />
             <h3>vents</h3>
           </div>
         </div>
@@ -324,37 +341,37 @@
       <div class="container">
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/tilesk.png" alt="" />
             <h3>tiles</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/stoves.png" alt="" />
             <h3>stoves</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/slabs.png" alt="" />
             <h3>slabs</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/sink.png" alt="" />
             <h3>sink</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/fixturesk.png" alt="" />
             <h3>fixtures</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/exhaust.png" alt="" />
             <h3>exhaust</h3>
           </div>
         </div>
@@ -368,37 +385,37 @@
       <div class="container">
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Geyser.png" alt="" />
             <h3>Geyser</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/sw.png" alt="" />
             <h3>switch boards</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/doors.png" alt="" />
             <h3>doors</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/windowsb.png" alt="" />
             <h3>windows</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/glass.png" alt="" />
             <h3>glass partition</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/mirrors.png" alt="" />
             <h3>mirrors</h3>
           </div>
         </div>
@@ -412,37 +429,37 @@
       <div class="container">
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/tilest.png" alt="" />
             <h3>tiles</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/shower.png" alt="" />
             <h3>shower</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/taps.png" alt="" />
             <h3>taps</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/toilet.png" alt="" />
             <h3>toilet</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/drains.png" alt="" />
             <h3>drains</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/basins.png" alt="" />
             <h3>wash basins</h3>
           </div>
         </div>
@@ -456,37 +473,37 @@
       <div class="container">
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/Grills.png" alt="" />
             <h3>Grills</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/cornersb.png" alt="" />
             <h3>corners</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/balconyw.png" alt="" />
             <h3>windows</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/balconyd.png" alt="" />
             <h3>doors</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/balconywall.png" alt="" />
             <h3>walls</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/ceilingb.png" alt="" />
             <h3>ceiling</h3>
           </div>
         </div>
@@ -500,37 +517,37 @@
       <div class="container">
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/f1.png" alt="" />
             <h3></h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/f2.png" alt="" />
             <h3></h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/f3.png" alt="" />
             <h3></h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/f4.png" alt="" />
             <h3></h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/grouts.png" alt="" />
             <h3>grouts</h3>
           </div>
         </div>
         <div class="sub-services">
           <div class="service-box">
-            <img src="./img/home-clean.png" alt="" />
+            <img src="./img/tilest.png" alt="" />
             <h3>tiles</h3>
           </div>
         </div>
@@ -598,7 +615,7 @@
           </a>
         </div>
         <div class="section6-img">
-          <img src="./img/bg-cleaninghome.jpg" alt="" />
+          <img src="./img/image33.png" alt="" />
         </div>
       </div>
     </section>
@@ -628,7 +645,7 @@
       <h2>Most trusted Deep Cleaning Services in Chennai</h2>
       <div class="container">
         <div class="section8-img">
-          <img src="./img/bg-cleaninghome.jpg" alt="" />
+          <img src="./img/image22.png" alt="" />
         </div>
         <div class="section8-text">
           <h3>Most trusted Deep Cleaning Services in Chennai</h3>
@@ -694,7 +711,7 @@
       <h2>5+ Years of Experience in Professional Cleaning Services</h2>
       <div class="container">
         <div class="section9-container">
-          <img src="./img/hero-img.png" alt="" />
+          <img src="./img/image 30.png" alt="" />
           <div class="section9-text">
             <h3>Our Cleaning Expertise</h3>
             <p>
@@ -706,33 +723,32 @@
           </div>
         </div>
         <div class="section9-container">
-          <img src="./img/hero-img.png" alt="" />
+          <img src="./img/image.png" alt="" />
           <div class="section9-text">
-            <h3>Our Cleaning Expertise</h3>
+            <h3>Save Time and Energy</h3>
             <p>
-              Our professional house cleaning services bring a wealth of
-              expertise. Our skilled team knows the ins and outs of cleaning,
-              using the best techniques and products to ensure every nook and
-              cranny is spotless.
+              Choosing us saves you valuable time and energy. Instead of
+              spending hours on cleaning, you can focus on what matters most to
+              you, while we handle the dirty work.
             </p>
           </div>
         </div>
         <div class="section9-container">
-          <img src="./img/hero-img.png" alt="" />
+          <img src="./img/image10.png" alt="" />
           <div class="section9-text">
-            <h3>Our Cleaning Expertise</h3>
+            <h3>Enjoy Peace of Mind</h3>
             <p>
-              Our professional house cleaning services bring a wealth of
-              expertise. Our skilled team knows the ins and outs of cleaning,
-              using the best techniques and products to ensure every nook and
-              cranny is spotless.
+              Our services offer peace of mind. We are reliable, insured, and
+              dedicated to your satisfaction. You can trust us to transform your
+              home into a clean and inviting space, giving you a sense of
+              comfort and relaxation.
             </p>
           </div>
         </div>
       </div>
     </section>
     <!-- section9 -->
-    <div class="work-image">
+    <div class="work-image" id="work">
       <h2>Our Work</h2>
       <div class="container">
         <div class="img-work">
@@ -793,28 +809,30 @@
     </div>
     <!-- cta -->
     <!-- footer -->
-    <footer>
+    <footer id="contact">
       <div class="footer-con">
-        <div class="logo-img">
-          <h3>Natural shine</h3>
-        </div>
+        <a href="#" class="logo-img">
+          <img src="./img/logo-2.png" alt="" />
+        </a>
         <a href="tel:+91 9751985934" class="btn-foot"
           ><i class="fa-solid fa-phone"></i> 9751985934
         </a>
-        <a href="">tamizhmaran649@gmail.com</a>
+        <a href="mailto:tamizhmaran649@gmail.com">tamizhmaran649@gmail.com</a>
         <h3>Professional House Cleaning Services in Chennai</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur <br />
-          adipisicing elit. Possimus <br />
-          eum alias perspiciatis <br />
-          cum sed omnis explicabo ratione
+          P.s.Tamizhmaran
+          <br />
+          332,Nethaji Street,MG Nagar, Urappakkam, <br />
+          Tambaram, Chennai
         </p>
-        <a href=""
+        <a href="#"
           >Privacy Policy | Terms and Condition | Refunds and Cancellations |
           Pricing | Blog | Contact Us</a
         >
-        <a href="">Copyright © 2025| Natural shine - All rights reserved</a>
-        <a href="">Developed By D-Grow</a>
+        <a href="./index.html"
+          >Copyright © 2025| Natural shine - All rights reserved</a
+        >
+        <a href="https://dgrowmarketing.com/">Developed By D-Grow</a>
       </div>
     </footer>
     <!-- footer -->

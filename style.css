@@ -8,6 +8,9 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
   overflow-x: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
 /*  */
 :root {
   --black-color: #0d0d0d;
@@ -66,6 +69,10 @@ nav a i {
   color: var(--green-color);
   position: relative;
 }
+.logo img {
+  width: 120px;
+}
+
 .openMenu,
 .closeMenu {
   display: flex;
@@ -99,6 +106,7 @@ nav a i {
   right: 0;
   z-index: 10;
   margin-top: 60px;
+  border-radius: 0px 0px 0px 20px;
 }
 .mobileNav ul {
   display: flex;
@@ -113,7 +121,7 @@ nav a i {
 }
 .mobileNav a {
   color: var(--black-color);
-  font-weight: 500;
+  font-weight: bolder;
 }
 .mobileNav a i {
   margin-right: 5px;
@@ -532,9 +540,10 @@ nav a i {
   flex-direction: column;
   gap: 20px;
   padding: 50px 0px;
+  padding: 30px;
 }
-.footer-con .logo-img {
-  font-size: 32px;
+.footer-con .logo-img img {
+  width: 250px;
 }
 .footer-con .btn-foot {
   padding: 10px 25px;
@@ -574,6 +583,9 @@ nav a i {
 
 /* Laptop/Desktop */
 @media (min-width: 1024px) {
+  .logo img {
+    width: 140px;
+  }
   .container {
     width: 90%;
   }
@@ -605,6 +617,9 @@ nav a i {
 
 /* Large Screens */
 @media (min-width: 1280px) {
+  .logo img {
+    width: 140px;
+  }
   .container {
     width: 80%;
   }
