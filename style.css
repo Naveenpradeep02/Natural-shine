@@ -564,6 +564,38 @@ nav a i {
 .footer-con p {
   text-align: center;
 }
+.float {
+  opacity: 0;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  transition: all 0.4s ease-in-out;
+}
+.soc-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.soc-i {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soc-i i {
+  font-size: 26px;
+  color: var(--white-color);
+}
+.whatsapp {
+  background-color: #00ff15;
+}
+.phone {
+  background-color: rgb(34, 181, 244);
+}
 /* ==================== */
 
 /* Tablet */

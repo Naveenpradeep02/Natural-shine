@@ -17,3 +17,16 @@ const hideMenu = () => {
 // Add event listeners
 openMenu.addEventListener("click", showMenu);
 closeMenu.addEventListener("click", hideMenu);
+
+//
+const floatEl = document.getElementById("float");
+const header = document.getElementById("header");
+const headerHeight = header.offsetHeight;
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > headerHeight) {
+    floatEl.style.opacity = 1;
+  } else {
+    floatEl.style.opacity = 0;
+  }
+});
